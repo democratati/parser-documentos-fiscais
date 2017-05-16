@@ -14,14 +14,8 @@ Utilizado [JAX-B] para transformar os arquivos de esquemas XML's (XSD) em classe
 
 | Documento | Data | Versão | Site |
 | --------- | ---- | ------ | ---- |
-| MDF-e | 30/03/2017 | 3.00 | aqui(https://mdfe-portal.sefaz.rs.gov.br/Site/Documentos) | 
+| MDF-e | 30/03/2017 | 3.00 | [aqui](https://mdfe-portal.sefaz.rs.gov.br/Site/Documentos) | 
 
-
-### Exportar XSD do documento para classes Java
-
-```sh
-$ xjc -encoding UTF-8  raw/xsd/PL_MDFe_300/procMDFe_v3.00.xsd raw/xsd/PL_MDFe_300/mdfeTiposBasico_v3.00.xsd raw/xsd/PL_MDFe_ 300/consReciMDFeTiposBasico_v3.00.xsd -d src -p com.github.wagnerfonseca.quickparser.model.mdfe
-```
 
 
 [//]: #
