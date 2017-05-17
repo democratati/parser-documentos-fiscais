@@ -1,23 +1,26 @@
 package com.github.wagnerfonseca.docfiscparser.assembly;
 
+import java.nio.file.Path;
+
+import com.github.wagnerfonseca.docfiscparser.model.mdfe.MdfeProc;
+import com.github.wagnerfonseca.docfiscparser.model.mdfe.TMDFe;
+import com.github.wagnerfonseca.docfiscparser.serializer.mdfe.MDFeSerializer;
+
 public enum Parser {
 	
 	MDFE {
 		@Override
-		public void parser(String path) {
-			// TODO Auto-generated method stub
-			
+		public TMDFe parser(Path path) {
+			MDFeSerializer serializer = new MDFeSerializer();
+			MdfeProc mdfeProc = serializer.parseFromObject(path);			
+			return mdfeProc.getMDFe();
 		}
-
-		@Override
-		public Object parser(String path, Object src) {
-			// TODO Auto-generated method stub
-			return null;
-		}
+		
 	};
 	
-	public abstract void parser(String path);
-	
-	public abstract Object parser(String path, Object src);
+	/**
+	 * Realizar o parser do xml
+	 * */
+	public abstract Object parser(Path path);
 
 }
