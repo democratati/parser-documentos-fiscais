@@ -7,7 +7,7 @@ public interface XMLSerializer<T> {
 	/**
 	 * Ler o conteudo do xml
 	 * 
-	 * @param informar o caminho do arquivo xml
+	 * @param path informar o caminho do arquivo xml
 	 * */
 	String readFile(Path path);	
 	
@@ -16,14 +16,14 @@ public interface XMLSerializer<T> {
 	/**
 	 * Converter um xml em Objeto
 	 * 
-	 * @param caminho do arquivo xml
+	 * @param path caminho do arquivo xml
 	 * */
 	T parseFromObject(Path path);
 	
 	/**
 	 * Converter um xml em Objeto
 	 * 
-	 * @param conteudo do xml
+	 * @param xml conteudo do xml
 	 * */
 	T parseFromObject(String xml);
 	

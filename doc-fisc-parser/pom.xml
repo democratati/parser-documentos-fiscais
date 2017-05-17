@@ -4,7 +4,7 @@
 
 	<groupId>com.github.wagnerfonseca</groupId>
 	<artifactId>doc-fisc-parser</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>doc-fisc-parser</name>
@@ -174,8 +174,8 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/wagnerfonseca/parser-documentos-fiscais.git</connection>
-		<developerConnection>scm:git:ssh://github.com:wagnerfonseca/parser-documentos-fiscais.git</developerConnection>
-		<url>http://github.com/simpligility/parser-documentos-fiscais/tree/master</url>
+		<developerConnection>scm:git:ssh://github.com:wagnerfonseca/parser-documentos-fiscais.git</developerConnection>		
+		<url>https://github.com/wagnerfonseca/parser-documentos-fiscais/tree/master/doc-fisc-parser</url>
 	</scm>
 
 	<developers>

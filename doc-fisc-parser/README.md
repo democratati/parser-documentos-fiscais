@@ -1,5 +1,16 @@
 # DocFiscParser
 
+## Como Utilizar
+
+```
+<dependency>
+  <groupId>com.github.wagnerfonseca</groupId>
+  <artifactId>doc-fisc-parser</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+
 ### Exportar XSD do documento para classes Java
 
 ```sh
