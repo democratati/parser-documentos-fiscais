@@ -4,7 +4,7 @@
 
 ```
 <dependency>
-  <groupId>com.github.wagnerfonseca</groupId>
+  <groupId>com.github.democratati</groupId>
   <artifactId>doc-fisc-parser</artifactId>
   <version>1.0.0</version>
 </dependency>

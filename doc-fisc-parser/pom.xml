@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.wagnerfonseca</groupId>
+	<groupId>com.github.democratati</groupId>
 	<artifactId>doc-fisc-parser</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
@@ -163,7 +163,7 @@
 	<!-- Deploy Central Repository -->
 	<distributionManagement>
 		<snapshotRepository>
-			<id>ossrh</id>
+			<id>ossrh</id>			     
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
