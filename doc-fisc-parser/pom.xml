@@ -11,7 +11,7 @@
 
 	<description>Ferramenta para ler arquivos XML de documentos fiscais nacionais e converte-los em entidades abstratas</description>
 
-	<url>https://github.com/wagnerfonseca</url>
+	<url>https://github.com/democratati</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -173,16 +173,16 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com/wagnerfonseca/parser-documentos-fiscais.git</connection>
-		<developerConnection>scm:git:ssh://github.com:wagnerfonseca/parser-documentos-fiscais.git</developerConnection>		
-		<url>https://github.com/wagnerfonseca/parser-documentos-fiscais/tree/master/doc-fisc-parser</url>
+		<connection>scm:git:git://github.com/democratati/parser-documentos-fiscais.git</connection>
+		<developerConnection>scm:git:ssh://github.com:democratati/parser-documentos-fiscais.git</developerConnection>		
+		<url>https://github.com/democratati/parser-documentos-fiscais/tree/master/doc-fisc-parser</url>
 	</scm>
 
 	<developers>
 		<developer>
-			<name>Wagner Fonseca</name>
-			<id>wagnerfonseca</id>
-			<email>wagner.fonseca@gmail.com</email>
+			<name>Democrata TI</name>
+			<id>democratati</id>
+			<email>tecnologia@democrata.com.br</email>
 			<roles>
 				<role>Programmer</role>
 			</roles>
